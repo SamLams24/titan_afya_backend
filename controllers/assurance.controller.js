@@ -1,3 +1,4 @@
+//assurance.controller.js
 const DossierMedical = require("../models/dossierMedical.model");
 
 // Ajouter un badge assurance

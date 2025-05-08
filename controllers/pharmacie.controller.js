@@ -1,3 +1,4 @@
+//pharmacie.controller.js
 const DossierMedical = require("../models/dossierMedical.model");
 
 // Voir les ordonnances d’un patient

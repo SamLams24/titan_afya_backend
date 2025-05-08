@@ -1,3 +1,10 @@
+/**
+ * @swagger
+ * tags:
+ *   name: Test
+ *   description: Routes de test ou de démo pour l’API et les permissions
+ */
+
 const express = require("express");
 const router = express.Router();
 const { protect } = require("../middlewares/auth.middleware");

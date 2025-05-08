@@ -1,3 +1,46 @@
+/**
+ * @swagger
+ * tags:
+ *   name: Dossier Médical
+ *   description: Gestion des dossiers médicaux des patients
+ * /api/dossier-medical/{patientId}:
+ *   post:
+ *     summary: Créer un dossier médical
+ *     tags: [Dossier Médical]
+ *     parameters:
+ *       - name: patientId
+ *         in: path
+ *         required: true
+ *         schema:
+ *           type: string
+ *     responses:
+ *       201:
+ *         description: Dossier créé
+ *
+ * /api/dossier-medical/{patientId}/diagnostic:
+ *   post:
+ *     summary: Ajouter un diagnostic
+ *     tags: [Dossier Médical]
+ *     parameters:
+ *       - name: patientId
+ *         in: path
+ *         required: true
+ *         schema:
+ *           type: string
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             properties:
+ *               diagnostic:
+ *                 type: string
+ *     responses:
+ *       200:
+ *         description: Diagnostic ajouté
+ */
+
 const express = require("express");
 const router = express.Router();
 const { protect } = require("../middlewares/auth.middleware");

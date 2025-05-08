@@ -1,3 +1,4 @@
+//auth.controller.js
 const roleModel = require("../models/role.model");
 const User = require("../models/user.model");
 const generateToken = require("../utils/generateToken");

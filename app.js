@@ -14,6 +14,11 @@ const assuranceRoutes = require("./routes/assurance.routes");
 const croixRougeRoutes = require("./routes/croixRouge.routes");
 const adminRoutes = require("./routes/admin.routes");
 
+//Pour swagger
+//made by lams => attiogbesamuel310@gmail.com
+const swaggerUI = require("swagger-ui-express");
+const swaggerSpec = require("./swagger/swaggerConfig");
+
 const app = express();
 
 app.use(express.json());
@@ -31,5 +36,6 @@ app.use("/api/hygiene", hygieneRoutes);
 app.use("/api/assurance", assuranceRoutes);
 app.use("/api/croix-rouge", croixRougeRoutes);
 app.use("/api/admin", adminRoutes);
+app.use("/api-docs", swaggerUI.serve, swaggerUI.setup(swaggerSpec));
 
 module.exports = app;

@@ -1,3 +1,4 @@
+//made by lams => attiogbesamuel310@gmail.com
 const app = require("./app");
 const dotenv = require("dotenv");
 const connectDB = require("./config/db");

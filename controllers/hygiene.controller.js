@@ -1,3 +1,4 @@
+//hygiene.controller.js
 const DossierMedical = require("../models/dossierMedical.model");
 
 // Ajouter un bilan ou analyse

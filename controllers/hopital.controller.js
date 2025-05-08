@@ -1,3 +1,4 @@
+//hopital.controller.js
 const User = require("../models/user.model");
 const DossierMedical = require("../models/dossierMedical.model");
 const Role = require("../models/role.model");
