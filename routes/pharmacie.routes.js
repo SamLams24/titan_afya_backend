@@ -1,8 +1,5 @@
 /**
  * @swagger
- * tags:
- *   name: Pharmacie
- *   description: Gestion des ordonnances et ventes de médicaments
  * /api/pharmacie/{patientId}/ordonnances:
  *   get:
  *     summary: Voir ordonnances d'un patient

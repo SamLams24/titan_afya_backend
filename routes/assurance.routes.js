@@ -1,8 +1,5 @@
 /**
  * @swagger
- * tags:
- *   name: Assurance
- *   description: Attribution de badges assurances aux patients
  * /api/assurance/{patientId}/badge:
  *   post:
  *     summary: Ajouter un badge assurance

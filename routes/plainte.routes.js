@@ -1,8 +1,5 @@
 /**
  * @swagger
- * tags:
- *   name: Plaintes
- *   description: Dépôt et consultation des plaintes patients
  * /api/plaintes:
  *   post:
  *     summary: Déposer une plainte
@@ -22,7 +19,6 @@
  *       201:
  *         description: Plainte déposée
  *
- * /api/plaintes:
  *   get:
  *     summary: Récupérer la liste des plaintes
  *     tags: [Plainte]

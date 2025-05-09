@@ -1,8 +1,5 @@
 /**
  * @swagger
- * tags:
- *   name: Hôpital
- *   description: Gestion des patients et ordonnances à l’hôpital
  * /api/hopital/patient:
  *   post:
  *     summary: Créer un patient

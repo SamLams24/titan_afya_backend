@@ -1,8 +1,5 @@
 /**
  * @swagger
- * tags:
- *   name: Administration
- *   description: Gestion des utilisateurs et statistiques système
  * /api/admin/utilisateurs:
  *   get:
  *     summary: Voir la liste de tous les utilisateurs

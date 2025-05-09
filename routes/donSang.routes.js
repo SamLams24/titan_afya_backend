@@ -1,8 +1,5 @@
 /**
  * @swagger
- * tags:
- *   name: Don de Sang
- *   description: Gestion des dons de sang et analyses associées
  * /api/don-sang/{patientId}:
  *   post:
  *     summary: Enregistrer un don de sang

@@ -1,8 +1,5 @@
 /**
  * @swagger
- * tags:
- *   name: Dossier Médical
- *   description: Gestion des dossiers médicaux des patients
  * /api/dossier-medical/{patientId}:
  *   post:
  *     summary: Créer un dossier médical

@@ -27,7 +27,7 @@
  *       400:
  *         description: Erreur de validation
  *
- *  * /api/auth/login:
+ * /api/auth/login:
  *   post:
  *     summary: Authentifier un utilisateur
  *     tags: [Authentification]

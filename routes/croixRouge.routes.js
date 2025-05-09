@@ -1,8 +1,5 @@
 /**
  * @swagger
- * tags:
- *   name: Croix-Rouge
- *   description: Attribution de badges Croix-Rouge aux patients
  * /api/croix-rouge/{patientId}/badge:
  *   post:
  *     summary: Ajouter un badge Croix-Rouge

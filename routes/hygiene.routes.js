@@ -1,8 +1,5 @@
 /**
  * @swagger
- * tags:
- *   name: Hygiène et Analyses Médicales
- *   description: Enregistrement des analyses médicales
  * /api/hygiene/{patientId}/analyse:
  *   post:
  *     summary: Ajouter une analyse hygiène
